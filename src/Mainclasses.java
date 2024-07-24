@@ -118,56 +118,60 @@
 //}
 //
 
-import java.util.Arrays;
+//import java.util.Arrays;
+//
+//public class Mainclasses {
+//
+//    public static void main (String[] args) {
+//
+//
+//        int[] myArray = {1, 2, 3, 4, 5, 6, 7, 8, 9, 0};
+//
+//        System.out.println("first element is " + myArray[0]);
+//
+//        int kaluu = myArray.length;
+//
+//        System.out.println(kaluu);
+//
+//        for(int i = 0; i < myArray.length ; i++){
+//            System.out.println(myArray[i]);
+//        }
+//
+//        System.out.println(Arrays.toString(myArray));
+//
+//String [] sarray = {"mark", "wndnd", "wqnkq", "wene", "hellojii"};
+//Arrays.sort(sarray);
+//
+//System.out.println(Arrays.toString(sarray));
+//
+//        System.out.println(Arrays.binarySearch(sarray, "wene"));
+//
+//
+//        int[] descendingOrder = {34, 455, 345, 435, 21, 5345};
+//
+//        for(int i = 0; i < descendingOrder.length - 1 ; i++){
+//            for(int j =0; j<descendingOrder.length - i - 1; j++){
+//                if(descendingOrder[j] < descendingOrder[j+1]){
+//                    int temp = descendingOrder[j];
+//                    descendingOrder[j] = descendingOrder[j+1];
+//                    descendingOrder[j+1] = temp;
+//
+//
+//
+//                }
+//            }
+//        }
+//        System.out.println(Arrays.toString(descendingOrder));
+//
+//    }
+//
+//
+//
+//}
+//
+
 
 public class Mainclasses {
 
-    public static void main (String[] args) {
-
-
-        int[] myArray = {1, 2, 3, 4, 5, 6, 7, 8, 9, 0};
-
-        System.out.println("first element is " + myArray[0]);
-
-        int kaluu = myArray.length;
-
-        System.out.println(kaluu);
-
-        for(int i = 0; i < myArray.length ; i++){
-            System.out.println(myArray[i]);
-        }
-
-        System.out.println(Arrays.toString(myArray));
-
-String [] sarray = {"mark", "wndnd", "wqnkq", "wene", "hellojii"};
-Arrays.sort(sarray);
-
-System.out.println(Arrays.toString(sarray));
-
-        System.out.println(Arrays.binarySearch(sarray, "wene"));
-
-
-        int[] descendingOrder = {34, 455, 345, 435, 21, 5345};
-
-        for(int i = 0; i < descendingOrder.length - 1 ; i++){
-            for(int j =0; j<descendingOrder.length - i - 1; j++){
-                if(descendingOrder[j] < descendingOrder[j+1]){
-                    int temp = descendingOrder[j];
-                    descendingOrder[j] = descendingOrder[j+1];
-                    descendingOrder[j+1] = temp;
-
-
-
-                }
-            }
-        }
-        System.out.println(Arrays.toString(descendingOrder));
-
-    }
-
-
 
 }
-
-
-
